@@ -6,11 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class Categorias extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+    
     public function up()
     {
         Schema::create('categorias', function (Blueprint $table) {
@@ -22,13 +18,9 @@ class Categorias extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+   
     public function down()
     {
-        //
+        
     }
 }
